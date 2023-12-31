@@ -1,9 +1,9 @@
 * README.md is written in KOREAN
 # Spotify Demo Project
-Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 자동화 데이터 파이프라인입니다.<br>
+Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 자동화 데이터 파이프라인입니다.<br><br>
 
 # Pipeline Structure
-<img width="809" alt="스크린샷 2023-12-31 오후 8 53 21" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/f3e863a2-d4ae-4fad-9e8a-a0b2fc09ec2f"><br>
+<img width="809" alt="스크린샷 2023-12-31 오후 8 53 21" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/f3e863a2-d4ae-4fad-9e8a-a0b2fc09ec2f"><br><br>
 
 # Used Stacks
 ### Scheduling
