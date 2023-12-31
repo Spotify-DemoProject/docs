@@ -18,6 +18,7 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 - Kafka
 
 ### DL(Storage)
+- PostgreSQL
 - AWS S3
 
 ### Monitoring
