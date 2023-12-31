@@ -22,7 +22,8 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 - AWS S3 : 백업 스냅샷(.sql) 및 가공 데이터(.parquet) 적재
 
 ### Monitoring
-- Grafana<br><br> : Kafka 서버 모니터링
+- Grafana: Kafka 서버 모니터링
+<br><br> 
 
 # Results
 ### Parquet 데이터 적재 (앨범 / 아티스트)
