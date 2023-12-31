@@ -7,22 +7,22 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 
 # Used Stacks
 ### Scheduling
-- Airflow (Docker 기반의 서비스 빌드)
-- Cron
+- Airflow (Docker 기반의 서비스 빌드) : API 서버 작업 스케줄링 & Kafka 메세지 발행
+- Cron : Postgres DB 백업 & Spotify Access Token 재발급
 
 ### API & ETL
-- FastAPI + uvicorn[standard]
+- FastAPI + uvicorn[standard] : ETL 프로세스 수행
 
 ### Processing
-- Spark (Streaming Kafka Application)
-- Kafka
+- Spark (Streaming Kafka Application) : Kafka 메세지의 파라미터를 기반으로 데이터 가공
+- Kafka : Spark 어플리케이션 작업 스케줄링
 
 ### DL(Storage)
-- PostgreSQL
-- AWS S3
+- PostgreSQL : 반복 사용 API 파라미터 적재
+- AWS S3 : 백업 스냅샷(.sql) 및 가공 데이터(.parquet) 적재
 
 ### Monitoring
-- Grafana<br><br>
+- Grafana<br><br> : Kafka 서버 모니터링
 
 # Results
 ### Parquet 데이터 적재 (앨범 / 아티스트)
