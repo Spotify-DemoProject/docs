@@ -22,4 +22,12 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 - AWS S3
 
 ### Monitoring
-- Grafana
+- Grafana<br><br>
+
+# Results
+### Parquet 데이터 적재 (앨범 / 아티스트)
+<img width="721" alt="스크린샷 2023-12-30 오후 9 57 48" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/4dfdd9af-da34-4508-aff5-100c8f93206d">
+
+### Postgres 데이터 백업
+<img width="653" alt="스크린샷 2023-12-31 오후 9 03 25" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/7d5a4c54-0c16-4f2b-9580-fb6984ec3495">
+
