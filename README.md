@@ -38,6 +38,7 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 <img width="653" alt="스크린샷 2023-12-31 오후 9 03 25" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/7d5a4c54-0c16-4f2b-9580-fb6984ec3495">
 
 ### 추천 시스템 구현
-![example](https://github.com/Spotify-DemoProject/docs/assets/130134750/11156f3b-95ce-4bfc-90c3-f12fa1a5683f)
+<img width="1373" alt="스크린샷 2024-01-08 오후 2 40 35" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/93c62168-644c-4dab-8b38-2ad473ecb915">
+
 
 
