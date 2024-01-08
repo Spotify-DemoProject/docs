@@ -1,6 +1,8 @@
 * README.md is written in KOREAN
 # Spotify Demo Project
-Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 자동화 데이터 파이프라인입니다.<br><br>
+Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 자동화 데이터 파이프라인입니다.<br>
+간단한 사용자 추천 시스템을 구현하고 있습니다.
+<br><br>
 
 # Pipeline Structure
 <img width="823" alt="스크린샷 2024-01-08 오후 2 36 23" src="https://github.com/Spotify-DemoProject/docs/assets/130134750/a9d9db20-928b-47d9-8d38-cb93a1be3e8e">
