@@ -17,7 +17,7 @@ Spotify API로부터 앨범 및 아티스트 데이터를 수집 & 적재하는 
 - FastAPI + uvicorn[standard] : ETL 프로세스 수행
 
 ### Processing
-- Spark
+- Spark<br>
   (Streaming Kafka Application) : Kafka 메세지의 파라미터를 기반으로 데이터 가공<br>
   (ML) : 데이터 분석 및 추천 시스템 구현
 - Kafka : Spark 어플리케이션 작업 스케줄링
